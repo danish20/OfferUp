@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dashapplications.offerup.UserProfile">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/notif"
+        android:icon="@drawable/ic_notifications"
+        android:title="Notification"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/msg"
+        android:icon="@drawable/ic_email"
+        android:title="Message"
+        app:showAsAction="always" />
+</menu>
